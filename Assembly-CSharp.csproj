@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\CarMain.cs" />
      <Compile Include="Assets\Scripts\Managers\CarMoving.cs" />
      <Compile Include="Assets\Scripts\Managers\CarManager.cs" />
+     <Compile Include="Assets\Scripts\Car.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity 2022.1.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
