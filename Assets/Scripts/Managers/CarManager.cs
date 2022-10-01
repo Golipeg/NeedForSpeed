@@ -12,6 +12,25 @@ public class CarManager : MonoBehaviour
     private void Start()
     {
         InitCar();
+       // StartCoroutine(InitAfterTime());
+       //StartCoroutine(SayAfterTime());
+    }
+
+    private IEnumerator InitAfterTime()
+    {
+        var waitTime = new WaitForSeconds(1f);
+        while (true)
+        {
+            InitCar();
+            yield return waitTime;
+        }
+    }
+
+    private IEnumerator SayAfterTime()
+    {
+        Debug.Log("Hello World!");
+        yield return new WaitForSeconds(5f);
+        Debug.Log("Bye World!");
     }
 
     private void InitCar()
