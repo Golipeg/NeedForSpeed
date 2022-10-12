@@ -46,6 +46,11 @@
      <Compile Include="Assets\Scripts\Managers\CarMoving.cs" />
      <Compile Include="Assets\Scripts\Managers\CarManager.cs" />
      <Compile Include="Assets\Scripts\Car.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\GameOverController.cs" />
+     <Compile Include="Assets\Scripts\GameWinAction.cs" />
+     <Compile Include="Assets\Scripts\BuffSet.cs" />
+     <Compile Include="Assets\Scripts\DebuffSet.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity 2022.1.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
